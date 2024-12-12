@@ -14,7 +14,7 @@
   }
   h1{
     text-align: center;
-    font-size: 4rem;
+    font-size: 4rem; /*1 rem es igual a 16 px si no lo modificamos y va a ir aumentando de 16 en 16   */ 
     padding: 20px;
     border: 2px solid #000
   }
@@ -25,13 +25,19 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: italic;
   }
-
+  
+  /* .texto-custom{
+    color: chartreuse;
+  } */
+  /* Vamos a crear comentarios en CSS de esta manera  */
+  
   .texto-custom-dos{
     color: greenyellow;
     background-color: brown;
     font-style: oblique;
   }
   .espacioabajocustom{
+    /* margin: 50px 30px  60px 40px; */
     margin: 50px 30px;
     padding: 20px  2rem;
   }
@@ -64,4 +70,26 @@
   }
   ul .list-item .hipervinculo-especial-dos{
     font-size: xx-large;
+  }
+  .caja-ejemplo{
+    border: 3px solid orangered;
+    width: 500px;
+    background-color: #8f2ba2;
+  }
+  .navegador{
+    padding: 20px;
+    background-color: antiquewhite;
+  }
+  .nav-item{
+    display: inline-block;
+    list-style: none;
+    margin-right: 10px;
+  }
+  .nav-item a {
+    text-decoration: none;
+    color: #444040;
+  }
+  
+  .nav-item a:hover{
+    color: #8f2ba2;
   }
